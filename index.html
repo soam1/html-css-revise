@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="icon" type="image/png" href="favicon.png">
+
+        <title>
+            My first website
+        </title>
+    </head>
+
+    <body>
+        <h1>This is an h1 heading</h1>
+        <!-- <h2> This is an h2 heading</h2> -->
+        <a href="https://www.google.com" target="_blank" title="opens google search">
+            Click here
+        </a>
+        <br>
+        <!-- <a href=" mailto:test@gmail.com">
+            mail me for queries
+        </a>
+        <br>
+        <h1>This is a cute emoji</h1>
+        <img src="happy.png" alt="This is happy face emoji" height="100">
+        <h2> woof woof ha ha ha </h2> -->
+
+        <br>
+        <audio controls>
+            <!-- <audio controls autoplay muted> -->
+            <source src="Keejo Kesari Ke Laal-(PagalWorld).mp3" type="audio/mpeg">
+            <source src="Keejo Kesari Ke Laal-(PagalWorld).mp3" type="audio/wav">
+        </audio>
+
+        <!-- video file in any one of the given formats  -->
+        <!-- .mp4 .webm .ogg -->
+
+        <!-- <video src="VID-20230705-WA0000.mp4" width=" 400px" controls> -->
+        <!-- <video src="VID-20230705-WA0000.mp4" width=" 600px" controls autoplay muted loop> -->
+        <!-- </video>
+        <video width=" 200px" controls>
+            <source src="VID-20230705-WA0000.mp4">
+        </video> -->
+        <!-- i can also make this video as a hyperlink by surrounding it with anchor tags -->
+
+        <!-- creating a favicon for your web page in html -->
+        <!-- favicon (favorite icon) is the logo or icon of your website which displays in the chrome tabs bar 
+        OR  a small icon that represents a website or webpage-->
+
+
+        <!-- SPAN AND DIV in html -->
+        <!-- GROUP TOGETHER HTML -->
+        <!-- <span> inline container to group elements for styling purposes -->
+        <!-- <div> block container to group elements for styling purposes -->
+        <h1><span style="background-color: greenyellow;">This is a span title</span></h1>
+        <h1>
+            <div style="background-color: cyan;">This is a div title</span>
+        </h1>
+
+        <p><span style="background-color: greenyellow;">This is a SPAN paragraph and i am just increasing its text Lorem
+                ipsum, dolor sit amet consectetur adipisicing elit. Minus officiis tempore, laudantium culpa cumque
+                commodi consequatur laborum cupiditate ut pariatur soluta quos id adipisci dolorum totam minima
+                doloribus illum incidunt.</span></p>
+        <p>
+        <div style="background-color: cyan;">This is a DIV paragraph and i am just increasing its text Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Suscipit error quibusdam cumque possimus impedit dicta deleniti illo
+            doloremque, officiis fugiat consequuntur expedita doloribus exercitationem itaque voluptates atque dolor
+            harum totam.</div>
+        </p>
+
+        <!-- html lists -->
+        <!-- onordered, ordered and description lists -->
+        <!-- HTML TABLES -->
+        <!-- buttons in html -->
+        <!-- headers and footers in html -->
+        <!-- forms in html -->
+        <form action="index.php" method="post">
+            <label for="username">username:</label>
+            <input type="text" id="username" required minlength="6" placeholder="name to identify you">
+            <br>
+            <label for="password">password:</label>
+            <input type="password" id="password" required minlength="8">
+            <br>
+            <label for="email">email id:</label>
+            <input type="email" id="email" required placeholder="you@example.com">
+            <br>
+            <label for="phone">phone #</label>
+            <input type="tel" id="phone" required minlength="10" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                placeholder="987-654-3210">
+            <br>
+            <input type="reset">
+            <input type="submit">
+        </form>
+        <br>
+        <br>
+        <br>
+        <br>
+        <form action="index.php" method="POST" enctype="multipart/form-data">
+
+            <label for="username">username:</label>
+            <input type="text" id="username" placeholder="Spongebob" minlength="6" maxlength="15" required><br>
+
+            <label for="password">password:</label>
+            <input type="password" id="password"><br>
+
+            <label for="email">email:</label>
+            <input type="email" id="email" placeholder="SSquarepants@gmail.com"><br>
+
+            <label for="phone">phone #:</label>
+            <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+            <label for="bday">birthdate:</label>
+            <input type="date" id="bday"><br>
+
+            <label for="quantity">quantity:</label>
+            <input type="number" id="quantity" min="0" max="99" value="1"><br>
+
+            <label for="title">title:</label>
+
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." value="Mr." name="title">
+            <label for="Ms.">Ms.</label>
+            <input type="radio" id="Ms." value="Ms." name="title">
+            <label for="PhD.">PhD.</label>
+            <input type="radio" id="PhD." value="PhD." name="title"><br>
+
+            <label for="payment">payment</label>
+            <select id="payment">
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option>
+            </select><br>
+
+            <label for="subscribe">subscribe:</label>
+            <input type="checkbox" id="subscribe"><br>
+
+            <label for="comment">comment:</label>
+            <textarea id="comment" rows="3" cols="25"></textarea><br>
+
+            <label for="file">file:</label>
+            <input type="file" id="file" accept="image/png, image/jpeg"><br>
+
+            <input type="reset"><br>
+            <input type="submit">
+
+        </form>
+    </body>
+
+</html>
