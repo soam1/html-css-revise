@@ -1,12 +1,27 @@
-div {
-    background-color: red;
-    width: 100px;
-    height: 100px;
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /* position: relative;
+    top: 50px;
+    right: 278px;
+    left: 200px; */
+
+    /* position: fixed;
+    right: 0;
+    bottom: 0; */
+
+    /* position: relative; */
+    position: sticky;
+    top: 0px;
+    position: static;
 }
 
-span {
-    background-color: cyan;
-    width: 100px;
-    height: 100px;
-    display: block;
+#box2 {
+    width: 70px;
+    height: 80px;
+    background-color: green;
+    position: absolute;
+    right: 10px;
+    top: 35px;
 }
