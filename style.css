@@ -1,6 +1,27 @@
-body {
-    background-image: url(background.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+#container {
+    border: 2px solid;
 }
+
+/* descendant 
+#container p{
+    background-color: hsl(60, 100%, 70%);
+}
+*/
+
+/* child
+#container > p{
+    background-color: hsl(60, 100%, 70%);
+}
+*/
+
+/* general sibling
+#container ~ p{
+    background-color: hsl(60, 100%, 70%);
+}
+*/
+
+/* adjacent sibling
+#container + p{
+    background-color: hsl(60, 100%, 70%);
+}
+*/
