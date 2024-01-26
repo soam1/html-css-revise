@@ -1,10 +1,12 @@
 div {
-    border: 8px solid yellowgreen;
+    background-color: red;
+    width: 100px;
     height: 100px;
-    /* width: 800px; */
-    /* overflow: hidden;*/
-    overflow: visible;
-    /* overflow: scroll; */
-    overflow: clip;
-    overflow-clip-margin: 20px;
+}
+
+span {
+    background-color: cyan;
+    width: 100px;
+    height: 100px;
+    display: block;
 }
