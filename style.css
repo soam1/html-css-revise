@@ -1,27 +1,14 @@
-body {
-    background-color: darkblue;
-}
-
-/* p {
-    color: aquamarine;
-} */
-
 h1 {
-    color: yellow;
+    /* border-style: solid;
+    border-width: 4px;
+    border-color: hsl(273, 100%, 55%); */
+    border: 3px solid hsla(0, 79%, 53%, 0.756);
+    border-radius: 5px;
 }
 
-#p2 {
-    color: red;
-}
-
-#p3 {
-    color: pink;
-}
-
-.odd {
-    color: chartreuse;
-}
-
-.even {
-    color: violet;
+p {
+    border-bottom: 7px solid greenyellow;
+    border-top: 7px solid orange;
+    border-right: 7px solid white;
+    border-left: 7px solid white;
 }
