@@ -1,15 +1,10 @@
-#img1 {
-    float: left;
-    float: left;
-    margin-left: 10px;
-}
-
-#img2 {
-    float: right;
-    margin-left: 5px;
-}
-
-body {
-    border: 3px solid;
-    display: flow-root;
+div {
+    border: 8px solid yellowgreen;
+    height: 100px;
+    /* width: 800px; */
+    /* overflow: hidden;*/
+    overflow: visible;
+    /* overflow: scroll; */
+    overflow: clip;
+    overflow-clip-margin: 20px;
 }
