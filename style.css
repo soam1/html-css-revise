@@ -1,27 +1,45 @@
-#container {
-    border: 2px solid;
+a:link {
+    font-size: 2.1em;
+    color: green;
 }
 
-/* descendant 
-#container p{
-    background-color: hsl(60, 100%, 70%);
+a:hover {
+    color: purple;
 }
-*/
 
-/* child
-#container > p{
-    background-color: hsl(60, 100%, 70%);
+a:visited {
+    color: yellowgreen;
 }
-*/
 
-/* general sibling
-#container ~ p{
-    background-color: hsl(60, 100%, 70%);
+a:active {
+    color: blue;
+    font-size: 3.1em;
 }
-*/
 
-/* adjacent sibling
-#container + p{
-    background-color: hsl(60, 100%, 70%);
+li:hover {
+    background-color: bisque;
 }
-*/
+
+li:not(:hover) {
+    background-color: cadetblue;
+}
+
+li:nth-child(1) {
+    background-color: pink;
+}
+
+li:nth-child(2n+1) {
+    background-color: red;
+}
+
+#greeting p {
+    background-color: burlywood;
+    margin: 10px;
+    display: none;
+}
+
+#greeting:hover p {
+    background-color: gold;
+    margin: 10px;
+    display: flex;
+}
