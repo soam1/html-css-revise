@@ -1,0 +1,27 @@
+body {
+    background-color: darkblue;
+}
+
+/* p {
+    color: aquamarine;
+} */
+
+h1 {
+    color: yellow;
+}
+
+#p2 {
+    color: red;
+}
+
+#p3 {
+    color: pink;
+}
+
+.odd {
+    color: chartreuse;
+}
+
+.even {
+    color: violet;
+}
