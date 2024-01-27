@@ -1,24 +1,40 @@
-.icons {
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    /* justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; */
+    border: 10px solid black;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    font-size: 7em;
     text-align: center;
+    border-radius: 15px;
 }
 
-.fa-solid.fa-house.fa-5x {
-    color: silver;
+#box1 {
+    background-color: red;
 }
 
-.fa-brands.fa-twitter.fa-5x {
-    color: blue;
+#box2 {
+    background-color: yellow;
 }
 
-.fa-brands.fa-whatsapp.fa-5x {
-    color: green;
+#box3 {
+    background-color: green;
 }
 
-.fa-brands.fa-youtube.fa-5x {
-    color: red;
-}
-
-.icons a {
-    text-decoration: none;
-    margin-right: 20px;
+#box4 {
+    background-color: blue;
 }
