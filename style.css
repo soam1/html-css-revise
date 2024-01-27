@@ -1,21 +1,24 @@
-.gallery {
-    display: inline-block;
-    border: 1px solid grey;
-    margin: 5px;
-    width: 200px;
-}
-
-.gallery .description {
-    padding: 10px;
+.icons {
     text-align: center;
-
 }
 
-.gallery:hover {
-    border: 2px solid black;
+.fa-solid.fa-house.fa-5x {
+    color: silver;
 }
 
-.gallery img {
-    width: 100%;
-    height: auto;
+.fa-brands.fa-twitter.fa-5x {
+    color: blue;
+}
+
+.fa-brands.fa-whatsapp.fa-5x {
+    color: green;
+}
+
+.fa-brands.fa-youtube.fa-5x {
+    color: red;
+}
+
+.icons a {
+    text-decoration: none;
+    margin-right: 20px;
 }
