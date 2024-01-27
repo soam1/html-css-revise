@@ -1,53 +1,21 @@
-* {
-    box-sizing: border-box;
+.gallery {
+    display: inline-block;
+    border: 1px solid grey;
+    margin: 5px;
+    width: 200px;
 }
 
-body {
-    margin: 0px;
-}
-
-header {
-    background-color: silver;
+.gallery .description {
+    padding: 10px;
     text-align: center;
-    padding: 25px;
+
 }
 
-footer {
-    background-color: grey;
-    text-align: center;
-    padding: 25px;
-    display: block;
-    clear: both;
+.gallery:hover {
+    border: 2px solid black;
 }
 
-.navbar {
-    background-color: hsl(0, 0%, 15%);
-    height: 50px;
-}
-
-aside {
-    width: 20%;
-    float: left;
-    padding: 10px;
-}
-
-section {
-    width: 40%;
-    float: left;
-    padding: 10px;
-}
-
-article {
-    width: 40%;
-    float: left;
-    padding: 10px;
-}
-
-@media screen and (max-width:600px) {
-
-    aside,
-    section,
-    article {
-        width: 100%;
-    }
+.gallery img {
+    width: 100%;
+    height: auto;
 }
