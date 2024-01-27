@@ -1,40 +1,39 @@
-.container {
-    display: flex;
-    flex-direction: row;
-    height: 90vh;
-    /* justify-content: flex-end;
-    justify-content: center;
-    justify-content: space-between;
-    justify-content: space-around;
-    justify-content: space-evenly; */
-    border: 10px solid black;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    column-gap: 1em;
-    row-gap: 1em;
+img {
+    transform: translate(200px) scaleX(3) rotate(180deg);
 }
 
 .box {
-    width: 150px;
-    height: 150px;
-    font-size: 7em;
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 13em;
     text-align: center;
-    border-radius: 15px;
+    transform: translate(50px, 50px) rotate(45deg);
+
+    /*
+	transform: translateX(50px);
+	transform: translateY(50px);
+	transform: translate(50px, 50px);
+	transform: rotateX(180deg);
+	transform: rotateY(180deg);
+	transform: rotateZ(180deg);
+	transform: scaleX(2);
+	transform: scaleY(2);
+	transform: scale(2, 0.5);
+	transform: skewX(45deg);
+	transform: skewY(45deg);
+	transform: skew(20deg, 20deg);
+    */
 }
 
 #box1 {
-    background-color: red;
+    background: hsl(154, 100%, 69%);
 }
 
 #box2 {
-    background-color: yellow;
+    background: hsl(0, 100%, 69%);
 }
 
 #box3 {
-    background-color: green;
-}
-
-#box4 {
-    background-color: blue;
+    background: hsl(222, 100%, 69%);
 }
